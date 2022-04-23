@@ -1,0 +1,27 @@
+.container {
+    width:661px;
+    height: 651px;
+    display:flex;
+    position: relative;
+    flex-grow:wrap;
+}
+    .container figure img {
+        width:636px;
+        height: 635px;
+        margin-left: 12px;
+        flex-grow:wrap; 
+      }
+ img{
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(15, 0, 0)); 
+    border-radius: 0px 30px 30px 0px;
+ }
+
+ /*responsive*/
+ @media( max-width:300){
+    .container {
+    display: flex;
+    width: 30px;
+    flex-grow: wrap; 
+    }
+  
+ }
